@@ -71,6 +71,18 @@ human-dpp4-md-gromacs/
 │
 └── analysis/
     └── graphs/
+        ├── rmsd.xvg
+        ├── rmsd_plot.png
+        ├── gyrate.xvg
+        ├── Rg_plot.png
+        ├── density.xvg
+        ├── density.png
+        ├── potential.xvg
+        ├── potential_m.png
+        ├── pressure.xvg
+        ├── pressure.png
+        ├── temperature.xvg
+        └── temperature.png
 ```
 ## Results and Analysis
 
