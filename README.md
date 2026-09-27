@@ -71,3 +71,25 @@ human-dpp4-md-gromacs/
 │
 └── analysis/
     └── graphs/
+
+## Results and Analysis
+
+The molecular dynamics trajectory was analyzed using root-mean-square deviation (RMSD) and radius of gyration (Rg).
+
+### Root-Mean-Square Deviation (RMSD)
+
+- Average RMSD: **0.244 nm**
+- RMSD range: **0.001–0.295 nm**
+
+The RMSD describes the structural deviation of the protein relative to the reference structure during the simulation. The trajectory showed fluctuations within the observed range.
+
+![RMSD plot](analysis/graphs/rmsd_plot.png)
+
+### Radius of Gyration (Rg)
+
+- Average Rg: **2.745 nm**
+- Rg range: **2.674–2.788 nm**
+
+The radius of gyration describes the overall compactness of the protein. The relatively narrow range observed during the simulation indicates that the overall size and compactness of the protein remained within a limited range.
+
+![Radius of gyration plot](analysis/graphs/Rg_plot.png)
