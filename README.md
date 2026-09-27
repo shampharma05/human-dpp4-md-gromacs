@@ -106,8 +106,7 @@ The RMSD describes the structural deviation of the protein relative to the refer
 - Average Rg: **2.745 nm**
 - Rg range: **2.674–2.788 nm**
 
-The radius of gyration describes the overall compactness of the protein. The relatively narrow range observed during the simulation indicates that the overall size and compactness of the protein remained within a limited range.
-
+The radius of gyration describes the overall compactness of the protein. The radius of gyration fluctuated within the observed range throughout the 10 ns simulation, providing a measure of the protein's overall compactness.
 ![Radius of gyration plot](analysis/graphs/Rg_plot.png)
 
 ### Production Energy Analysis
