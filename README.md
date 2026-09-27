@@ -77,12 +77,16 @@ human-dpp4-md-gromacs/
         ├── Rg_plot.png
         ├── density.xvg
         ├── density.png
+        ├── density_full.xvg
         ├── potential.xvg
         ├── potential_m.png
+        ├── potential_full.xvg
         ├── pressure.xvg
         ├── pressure.png
+        ├── pressure_full.xvg
         ├── temperature.xvg
-        └── temperature.png
+        ├── temperature.png
+        └── temperature_full.xvg
 ```
 ## Results and Analysis
 
@@ -105,3 +109,16 @@ The RMSD describes the structural deviation of the protein relative to the refer
 The radius of gyration describes the overall compactness of the protein. The relatively narrow range observed during the simulation indicates that the overall size and compactness of the protein remained within a limited range.
 
 ![Radius of gyration plot](analysis/graphs/Rg_plot.png)
+
+### Production Energy Analysis
+
+Additional energy and system-property analyses were extracted directly from the production molecular dynamics energy file (`md.edr`) covering the complete 10 ns trajectory.
+
+- **Average temperature:** **300.03 K**
+- **Average pressure:** **0.925 bar**
+- **Average density:** **1034.27 kg/m³**
+- **Average potential energy:** **−1.32227 × 10⁶ kJ/mol**
+
+The temperature remained centered around the target temperature of 300 K. The average pressure was close to the reference pressure of 1 bar, while density fluctuated around an average of 1034.27 kg/m³.
+
+The full production analysis files are provided as `.xvg` files in `analysis/graphs/`.
